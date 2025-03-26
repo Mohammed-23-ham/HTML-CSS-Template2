@@ -3,8 +3,6 @@
   --transparent-color: rgb(15 116 143 / 70%);
   --section-padding: 100px;
 }
-/* End Variables */
-/* Start Global Rules */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -27,26 +25,21 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-/* Small */
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
 }
-/* Medium */
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
 }
-/* Large */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
-/* End Global Rules */
-/* Start Components */
 .main-heading {
   text-align: center;
 }
@@ -86,8 +79,7 @@ ul {
   line-height: 2;
   color: #777;
 }
-/* End Components */
-/* Start Header */
+
 header {
   position: absolute;
   left: 0;
@@ -183,8 +175,6 @@ header nav .form i {
     display: none;
   }
 }
-/* End Header */
-/* Start Landing */
 .landing {
   min-height: 100vh;
   background-color: #1f2021;
